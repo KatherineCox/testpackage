@@ -13,3 +13,5 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/KatherineCox/testpackage
 BugReports: https://github.com/KatherineCox/testpackage/issues
+Imports: 
+    learnr
