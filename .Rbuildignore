@@ -1,3 +1,4 @@
 ^testpackage\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^inst/tutorials/test-tutorial-2\.Rmd$
