@@ -12,6 +12,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Topic 1
 
+### Here's an image
+![](images/boring_screenshot.png)
+
 ### Exercise 
 
 *Here's a simple exercise with an empty code chunk provided for entering the answer.*
