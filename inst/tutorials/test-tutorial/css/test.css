@@ -1,0 +1,21 @@
+h2 {
+  color: purple;
+}
+
+h3 {
+  color: blue;
+}
+
+p {
+  color: #00ff00;
+}
+
+.subtitle {
+  color: orange;
+  font-size: 5em;
+}
+
+.splashpage h4 {
+  color: orange;
+  font-size: 1.5em;
+}
