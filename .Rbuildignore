@@ -1,4 +1,5 @@
 ^testpackage\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
-^inst/tutorials/test-tutorial-2\.Rmd$
+^inst/tutorials/.*\.html$
+^data-raw$

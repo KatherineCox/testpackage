@@ -51,12 +51,6 @@ tv <- rmarkdown::metadata$output$`learnr::tutorial`$version
 
 #### Version: `r tv`
 
-## Topic 1
-
-### Exercise
-
-test
-
 
 ## Topic 1
 
@@ -67,7 +61,7 @@ test
 
 *Here's a simple exercise with an empty code chunk provided for entering the answer.*
 
-Write the R code required to add two plus two:
+Enter `midgut` to print (a summary of) the midgut DESeqDataSet:
 
 ```{r two-plus-two, exercise=TRUE}
 
