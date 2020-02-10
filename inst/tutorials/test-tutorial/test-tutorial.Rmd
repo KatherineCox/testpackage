@@ -4,6 +4,7 @@ output:
   learnr::tutorial:
     css: css/test.css
     version: 1.0
+  github_document:
 runtime: shiny_prerendered
 ---
 
