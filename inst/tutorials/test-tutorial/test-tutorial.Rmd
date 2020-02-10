@@ -4,13 +4,32 @@ output:
   learnr::tutorial:
     css: css/test.css
     version: 1.0
-  github_document:
 runtime: shiny_prerendered
 ---
 
 ```{r setup, include=FALSE}
 library(learnr)
+tutorial_options(exercise.completion=TRUE)
 knitr::opts_chunk$set(echo = FALSE)
+
+library("DESeq2")
+library("clusterProfiler")
+library("org.Dm.eg.db")
+library("tidyverse")
+
+formatDESeq2Results <- function( x ) {
+  df <- as.data.frame(x)
+  df <- data.frame(rownames(df), df)
+  colnames(df) <- c("GeneID", colnames(df)[-1])
+  rownames(df) <- c()
+  return(df)
+}
+
+runClusterProfiler <- function (x) {
+  ids <- bitr( x$GeneID, "ENSEMBL", "ENTREZID", "org.Dm.eg.db" )
+  kegg <- enrichKEGG(ids$ENTREZID, "dme", keyType="ncbi-geneid")
+  return(kegg)
+}
 ```
 
 

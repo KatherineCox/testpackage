@@ -15,3 +15,5 @@ URL: https://github.com/KatherineCox/testpackage
 BugReports: https://github.com/KatherineCox/testpackage/issues
 Imports: 
     learnr
+Suggests: 
+    DESeq2
