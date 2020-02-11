@@ -3,3 +3,4 @@
 ^LICENSE\.md$
 ^inst/tutorials/.*\.html$
 ^data-raw$
+rsconnect/
