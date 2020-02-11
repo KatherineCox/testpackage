@@ -10,7 +10,7 @@ Authors@R:
 Description: What the package does (one paragraph).
 License: CCBY-4.0
 Encoding: UTF-8
-LazyData: false
+LazyData: true
 URL: https://github.com/KatherineCox/testpackage
 BugReports: https://github.com/KatherineCox/testpackage/issues
 Imports: 
